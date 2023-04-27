@@ -1,0 +1,22 @@
+import axios from 'axios';
+
+const options = {
+  method: 'GET',
+  url: 'https://dark-sky.p.rapidapi.com/%7Blatitude%7D,%7Blongitude%7D',
+  params: {
+    units: 'auto',
+    lang: 'en'
+  },
+  headers: {
+    'content-type': 'application/octet-stream',
+    'X-RapidAPI-Key': '84fca26e41msh9812d62fa7a38a2p14ee13jsn9a89a3a47c61',
+    'X-RapidAPI-Host': 'dark-sky.p.rapidapi.com'
+  }
+};
+
+try {
+	const response = await axios.request(options);
+	console.log(response.data);
+} catch (error) {
+	console.error(error);
+}
