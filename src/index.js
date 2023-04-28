@@ -1,3 +1,3 @@
-let count = 23
-console.log(23=="23")
- 
+let isGameovr = false 
+
+isGameovr ? console.log("Sorry you lost"):console.log("carri on")
