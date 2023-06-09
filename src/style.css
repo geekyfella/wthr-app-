@@ -16,7 +16,7 @@ img {
 }
 a{
     color: #FFF8D6;
-    font-style: "Roboto", sans-serif;
+    font-style: "helvetica", sans-serif;
     background-color: #617A55;
     padding-left: 15px;
     padding-right: 15px;
@@ -24,7 +24,7 @@ a{
     padding-bottom: 10px;
     font-weight: bold;
     border-radius: 20px;
-    text-transform: uppercase;
+    text-transform:none;
     text-decoration: none;
     cursor: pointer;
     margin-left: 860px;

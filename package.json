@@ -1,0 +1,22 @@
+{
+  "name": "project-weather-forecast",
+  "version": "1.0.0",
+  "description": "meow-meow",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekyfella/wthr-app-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geekyfella/wthr-app-/issues"
+  },
+  "homepage": "https://github.com/geekyfella/wthr-app-#readme"
+}
